@@ -1,0 +1,171 @@
+/* Reset margin and padding */
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: #5c80f6;
+}
+
+/* Galeri */
+.gallery-item {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(156, 41, 41, 0.913);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+}
+
+/* Reset margin and padding */
+body,
+h1,
+h2,
+h3,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section styling */
+#tentang-kami {
+  background-color: #ef950590;
+}
+
+#tentang-kami h1,
+#tentang-kami h3 {
+  color: #010408;
+}
+
+.lead {
+  color: #ffffff;
+}
+.leads {
+  color: #000000;
+}
+
+/* Team Section */
+#tentang-kami .col-md-4 {
+  transition: transform 0.3s ease-in-out;
+}
+
+#tentang-kami .col-md-4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.container h1 {
+  color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #2807e0;
+}
+
+/* Reset */
+body,
+h1,
+h3,
+p,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section styling */
+#layanan {
+  background-color: #042438;
+}
+
+/* Service Cards */
+.service-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(232, 205, 5, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card .card-title {
+  color: #151102;
+}
+
+.detail-text {
+  display: none;
+  margin-top: 15px;
+  color: #3a02c8;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+}
+
+/* Reset */
+body,
+h1,
+h3,
+p,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Kontak Section */
+#kontak {
+  background-color: #eabe6d;
+}
+
+#kontak h1 {
+  color: #333;
+}
+
+#kontak p {
+  color: #666;
+}
+
+#feedback {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #544205;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+}
